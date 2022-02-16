@@ -47,13 +47,9 @@
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
             "required": true       
         },
-
         "INDEX_REQ_CHANNEL": {
-
             "description": "Same Logs channel id with -100xxxxxxx",
-
             "required": true       
-
         },       
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
@@ -72,7 +68,7 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI.",
+            "description": "MongoDB URI.",
             "required": true
         },
         "DATABASE_NAME": {
@@ -91,7 +87,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "MW Updatez",
+            "value": "MWUpdatez",
             "required": false
         },
         "IMDB": {
